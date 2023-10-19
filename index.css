@@ -1,0 +1,161 @@
+.mainClass {
+    height: 100vh;
+}
+
+.section1 {
+  
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2 {
+    background-color: #2ecc71; /* Green color */
+    min-height: 100%;
+}
+
+.pagination_heading h1{
+    color: black ;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: start;
+}
+
+.tabBar{
+    width: 100vh;
+    height: 50px;
+    background-color: red;
+}
+
+.CVbtn {
+  width: 110px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.Dbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.Pbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.PFbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.CSbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+}
+
+.Sbtn {
+  width: 60px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.Sfield {
+  width: 180px !important;
+  height: 25px !important;
+  font-size: 10px !important;
+  padding: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+
+  .navbar-default {
+    background-color: #FFF;
+ 
+  }
+  
+  /*main side bar*/
+  .msb {
+    min-height: 100%;
+    overflow-y: auto;
+    white-space: nowrap;
+ 
+    z-index: 1;
+    .navbar {
+      border: none;
+      margin-left: 0;
+      background-color: inherit;
+    }
+    .navbar-header {
+      width: 100%;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    /* .navbar-nav {
+
+     
+    } */
+
+  }
+  .side-menu-container ul.nav.navbar-nav li{
+    margin-top: 15px;
+    width: 30vh;
+    padding: 10px;
+  }
+
+  .side-menu-container ul.nav.navbar-nav li:hover{
+    background-color: aliceblue;
+    color: grey;
+  }
+  .side-menu-container ul.nav.navbar-nav li ul.nav.navbar-nav li:hover{
+    background-color: aliceblue;
+    color: grey;
+  }
+  .side-menu-container ul.nav.navbar-nav li ul.nav.navbar-nav li{
+    margin-top: 15px;
+    width: 27vh;
+    padding: 10px;
+  }
+  .side-menu-container ul.nav.navbar-nav li a {
+    text-decoration: none; /* Remove underline */
+    color: grey; /* Change color to red */
+   
+  }
+
+  
+  
+
+  .failure{
+    background-color: red !important;
+    display: none !important;
+  }
+
+  .version-modal-header{
+    background-color: yellow !important;
+  }
+
+  .sales{
+    display: block;
+  }
+  .product{
+    display: none ;
+  }
+  .purchase{
+    display: none ;
+  }
+  .dashboard{
+    display: none ;
+  }
